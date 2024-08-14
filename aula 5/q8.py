@@ -8,6 +8,9 @@ elif operacao ==  '-':
     print(numero1 - numero2)
 elif operacao == 'x':
     print(numero1 * numero2)
-else:
+elif: operacao == '/':
     print(numero1 / numero2)
+else:
+    print('Operação inválida.')
+
         
