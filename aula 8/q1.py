@@ -1,8 +1,7 @@
 numeros = []
 for x in range(3):
-    numeros.append(int(input('Digite um números: ')))
-print(max(numeros))
-
+    numeros.append(int(input(f'Digite um números n°{x+1}: ')))
+print(f'O maior número é {max(numeros)}')
 
 
 
