@@ -4,7 +4,7 @@ os.system('cls')
 
 number = random.randint(0,100)
 
-attempt = 1
+attempt = 0
 while True:
     game = int(input('Digite um número entre 1 e 100: '))
     os.system('cls')
