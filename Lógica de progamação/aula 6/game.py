@@ -4,13 +4,13 @@ os.system('cls')
 
 number = random.randint(0,100)
 
-x = 1
+attempt = 0
 while True:
     game = int(input('Digite um número entre 1 e 100: '))
     os.system('cls')
-    x = x + 1
+    attempt = attempt + 1
     if number == game:
-        print(f'Parabéns, você acertou após {x} tentativas, o número certo é {number}')
+        print(f'Parabéns, você acertou após {attempt} tentativas, o número certo é {number}')
         break
     elif number > game:
         print('Muito baixo')
